@@ -1,15 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from "react"; 
+import Registration from "./Components/Register Form/Registration";
 import './App.css'
-import ToDoCard from './Components/To-Do-List/ToDoCard'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <ToDoCard/>
-  )
+export default function App() { 
+    const [count,setCount]=useState(0)  
+  return ( 
+    <Registration/>
+  ) 
 }
-
-export default App
